@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Poppins:wght@200;300;400&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #F8F8F8 !important;
+}
+
+::placeholder{
+  font-size: 12px;
+}
+
+span:hover{
+  cursor: pointer;
+}
+
+
+/*----CARDS----*/
+.cards:hover{
+  cursor: pointer;
+  box-shadow:2px 2px 8px #d3d3d3 !important;
+  border:2px solid grey;
+}
